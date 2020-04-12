@@ -1,0 +1,82 @@
+body, header{
+    padding: 0;
+    margin:0;
+    background-color: #565656;
+}
+
+
+/*Menu bar's styles*/
+.mainMenu {
+    height: 50px;
+    width: 80%;
+    margin: 0% 0% 0% 10%;
+    border-bottom: 2px solid #ccc;
+}
+
+.mainMenu ul li {
+    float: right;
+    list-style-type: none;
+    margin: 0px 10px 0px 30px;
+    width: 100px;
+    height: 25px;
+    vertical-align: bottom;
+    padding-top: 5px;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+    cursor: pointer;
+}
+
+.mainMenu ul li:hover {
+    float: right;
+    list-style-type: none;
+    margin: 0px 10px 0px 30px;
+    width: 100px;
+    height: 25px;
+    vertical-align: bottom;
+    padding-top: 5px;
+    text-align: center;
+    font-variant-caps: all-small-caps;
+    cursor: pointer;
+    border-bottom: 3px solid green;
+}
+
+
+.mainMenu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*Menu bar's styles*/
+
+/*Content's style*/
+
+.content{
+    width: 80%;
+    margin: 0% 0% 5% 10%;
+    height: 300px;
+    background-color: white;
+}
+/*Content's style*/
+
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    width: 80%;
+    margin: 0% 0% 0% 10%; 
+    border-top: 2px solid #ccc;
+    text-align: center;
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+
+    .mainMenu ul li {
+        list-style-type: circle;
+    }
+  }
